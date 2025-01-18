@@ -52,6 +52,9 @@ pip3 install yt-dlp
 sudo dnf install -y gtk3-devel gcc make pkg-config python3-pip
 pip3 install yt-dlp
 ```
+![Application](docs/1.png)
+![Application](docs/2.png)
+
 
 #### Arch Linux
 
