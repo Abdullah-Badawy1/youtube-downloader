@@ -4,8 +4,8 @@ This README provides comprehensive instructions for setting up and using the You
 
 ---
 
-![Application](docs/1.png)
 ![Application](docs/2.png)
+![Application](docs/1.png)
 
 ## Features
 
