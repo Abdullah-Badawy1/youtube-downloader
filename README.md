@@ -4,8 +4,17 @@ This README provides comprehensive instructions for setting up and using the You
 
 ---
 
-![Application](docs/2.png)
-![Application](docs/1.png)
+## Application Screenshots
+
+<p align="center">
+    <img src="docs/2.png" alt="Application Screenshot 2" width="400">
+</p>
+<p align="center">
+    <img src="docs/1.png" alt="Application Screenshot 1" width="400">
+</p>
+
+#![Application](docs/2.png)
+#![Application](docs/1.png)
 
 ## Features
 
