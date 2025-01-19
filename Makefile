@@ -30,7 +30,7 @@ $(BIN_DIR):
 	mkdir -p $(BIN_DIR)
 
 # Build target executable
-$(BIN_DIR)/$(TARGET): $(OBJS)
+$(BIN_DIR)/$(TARGET): $(OBJS) | $(BIN_DIR)
 	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
 
 # Compile source files into object files
@@ -40,10 +40,13 @@ $(BUILD_DIR)/%.o: %.c | $(BUILD_DIR)
 # Install the binary to /usr/local/bin
 install: $(BIN_DIR)/$(TARGET)
 	sudo install -m 755 $(BIN_DIR)/$(TARGET) /usr/local/bin/
+	rm -rf $(BUILD_DIR) $(BIN_DIR)
+	rm -f $(TARGET) $(TARGET).o
 
 # Clean up generated files
 clean:
 	rm -rf $(BUILD_DIR) $(BIN_DIR)
+	rm -f $(TARGET) $(TARGET).o
 
 # Phony targets
 .PHONY: all clean install
