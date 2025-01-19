@@ -3,7 +3,6 @@
 This README provides comprehensive instructions for setting up and using the YouTube Downloader application built with GTK and `yt-dlp`. The application allows users to fetch available formats for YouTube videos and download videos in a chosen format.
 
 ---
-
 ## Application Screenshots
 
 <p align="center">
@@ -12,9 +11,6 @@ This README provides comprehensive instructions for setting up and using the You
 <p align="center">
     <img src="docs/1.png" alt="Application Screenshot 1" width="400">
 </p>
-
-#![Application](docs/2.png)
-#![Application](docs/1.png)
 
 ## Features
 
